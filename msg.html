@@ -1,59 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Drag Papers ❤️</title>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'><link rel="stylesheet" href="./style.css">
-
+  <link rel='stylesheet'
+    href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<!-- A pen by Developer Rahul  -->
-<div class="paper heart">
+  <!-- partial:index.partial.html -->
+  <!-- A pen by Developer Rahul  -->
+  <div class="paper heart"></div>
 
-</div>
-
-  
-<div class="paper image">
-  <p> and I fallen in</p>
+  <div class="paper image">
+    <p> and I fallen in</p>
     <p>Love with You 😍 </p>
-   <img src="images/1.jpeg" />
-</div>
+    <img src="images/1.jpeg" />
+  </div>
 
-<div class="paper image">
-  <p</p>
-  <img src="images/2.jpeg" />
-</div>
+  <div class="paper image">
+    <p></p>
+    <img src="images/2.jpeg" />
+  </div>
 
-<div class="paper image">
-  <p>How can be </p>
-   <p> someone so cute ❤️ </p>
+  <div class="paper image">
+    <p>How can be </p>
+    <p> someone so cute ❤️ </p>
+    <img src="images/3.jpg" />
+  </div>
 
-  <img src="images/3.jpg" />
-</div>
+  <div class="paper red">
+    <p class="p1"> and My Favorite</p>
+    <p class="p2">Person 😍</p>
+  </div>
 
+  <div class="paper">
+    <p class="p1">You are Cute </p>
+    <p class="p1">Amazing <span style="color: red !important;">❤️</span></p>
+  </div>
 
+  <div class="paper">
+    <p class="p1">Drag the papers to move!</p>
+  </div>
 
-<div class="paper red">
-<p class="p1"> and My Favorite</p>
-<p class="p2">Person 😍</p>
-</div>
+  <div class="paper">
+    <p class="p1">I love You Ashifa!</p>
+  </div>
 
-<div class="paper">
-<p class="p1">You are Cute </p>
-  <p class="p1">Amazing <span style="color: red !important;">❤️</span></p>
-</div>
+  <!-- New video paper -->
+  <div class="paper video">
+    <video controls>
+      <source src="./video/video_1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
 
-<div class="paper">
-<p class="p1">Drag the papers to move!</p>
-</div>
+  <!-- partial -->
 
-<div class="paper">
-  <p class="p1">I love You Ashifa!</p>
-</div>
+  <script>
+    if (screen && screen.width > 900) {
+      document.write('<script type="text/javascript" src = "./script.js" > <\/script>');
+    }
+  </script>
 
-<!-- partial -->
-  <script  src="./script.js"></script>
+  <script>
+    if (screen && screen.width < 900) {
+      document.write('<script type="text/javascript" src = "./mobile.js" ><\/script>');
+    }
+  </script>
+
 
 </body>
+
 </html>
