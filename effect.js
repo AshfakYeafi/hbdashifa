@@ -169,7 +169,7 @@ $('#story').click(function() {
     $(this).fadeOut('slow');
     $('.cake').fadeOut('fast').promise().done(function() {
         // Open the new webpage in a new tab
-        window.open('./msg.html', '_blank');  // Replace with your desired URL
+        window.open('./msg.html');  // Replace with your desired URL
     });
 });
 
