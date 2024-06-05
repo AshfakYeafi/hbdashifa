@@ -166,12 +166,17 @@ $('document').ready(function(){
 	
 
 $('#story').click(function() {
-    $(this).fadeOut('slow');
-    $('.cake').fadeOut('fast').promise().done(function() {
-        // Open the new webpage in a new tab
-        window.open('./msg.html');  // Replace with your desired URL
-    });
+    // Redirect to another webpage
+    window.location.href = './msg.html';  // Replace with your desired URL
 });
+
+// $('#story').click(function() {
+//     $(this).fadeOut('slow');
+//     $('.cake').fadeOut('fast').promise().done(function() {
+//         // Open the new webpage in a new tab
+//         window.open('./msg.html');  // Replace with your desired URL
+//     });
+// });
 
 // $('#story').click(function(){
 //     // Hide the #story element and .cake elements

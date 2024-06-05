@@ -8,6 +8,22 @@
   <link rel='stylesheet'
     href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
   <link rel="stylesheet" href="./style.css">
+    <style>
+      audio {
+        position: fixed;
+        bottom: 10%;
+        right: 0;
+        z-index: 1000;
+      }
+    
+      @media (max-width: 900px) {
+        audio {
+          width: 100%;
+          bottom: 10%;
+          right: 0;
+        }
+      }
+    </style>
 </head>
 
 <body>
@@ -126,10 +142,10 @@
     <p class="p1">Drag the papers to move!</p>
   </div>
 
-  <!-- <audio controls autoplay loop>
+  <audio controls autoplay loop>
     <source src="music.mp3" type="audio/ogg">
     <embed src="music.mp3" autostart="true" loop="true" hidden="true">
-  </audio> -->
+  </audio>
 
   <!-- partial -->
 
